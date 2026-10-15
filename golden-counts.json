@@ -1,0 +1,38 @@
+[
+  {
+    "name": "hand-checkable nontrivial count",
+    "series": [0, 0, 1, 1, 0, 0],
+    "m": 1,
+    "toleranceMultiplier": 0.2,
+    "N": 6,
+    "templateCount": 5,
+    "B": 4,
+    "A": 1,
+    "sampen": 1.3862943611198906,
+    "reason": "OK"
+  },
+  {
+    "name": "all template pairs match at inclusive boundary",
+    "series": [0, 1, 0, 1, 0, 1, 0, 1],
+    "m": 2,
+    "toleranceMultiplier": 2,
+    "N": 8,
+    "templateCount": 6,
+    "B": 15,
+    "A": 15,
+    "sampen": 0,
+    "reason": "OK"
+  },
+  {
+    "name": "no pairs match",
+    "series": [0, 1, 4, 9, 16, 25, 36, 49],
+    "m": 2,
+    "toleranceMultiplier": 0.001,
+    "N": 8,
+    "templateCount": 6,
+    "B": 0,
+    "A": 0,
+    "sampen": null,
+    "reason": "B = 0 (nenhum par semelhante)"
+  }
+]
